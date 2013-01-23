@@ -234,11 +234,25 @@ nav ul ul ul {
 	font-size: 14px;
 	padding: 5px;
 	}
-#lista-acordion{
-
-}
+	#lista-acordion{
+		width: 320px;
+		margin-left: 7px;
+		line-height: 15px;
+		margin-bottom: 10px;
+		float:left;
+	}
 #secoes {
-width: 300px;
-margin-left: 7px;
 line-height: 15px;
 }
+
+#localizacao {
+float: left;
+width: 320px;
+color: #fff;
+margin-top: 5px;
+}
+
+	h3 {
+	font-family: arial;
+	font-size: 14px
+	}
