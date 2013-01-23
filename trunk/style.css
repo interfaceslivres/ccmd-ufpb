@@ -241,30 +241,46 @@ nav ul ul ul {
 	color: #fff;
 	float: left;
 }
-
-	#footer h3 {
-	font-size: 14px;
-	padding: 5px;
-	}
+	
 	#lista-acordion{
 		width: 320px;
-		margin-left: 7px;
+		margin-left: 25px;
 		line-height: 15px;
 		margin-bottom: 10px;
 		float:left;
 	}
+	
+	#lista-acordion h3 {
+	font-size: 14px;
+	padding: 5px;
+	}
+	
+	#lista-acordion img {
+	float: right;
+	width: 8px;
+	height: 10px;
+	margin-right: 130px;
+	margin-top: 2px;
+	}
+	
 #secoes {
 line-height: 15px;
 }
 
 #localizacao {
 float: left;
-width: 320px;
+width: 280px;
 color: #fff;
 margin-top: 5px;
 }
 
-	h3 {
+	#localizacao h3 {
 	font-family: arial;
-	font-size: 14px
+	font-size: 14px;
+	float: left;
+	}
+	
+	#localizacao br {
+	float: left;
+	
 	}
