@@ -222,4 +222,14 @@ nav ul ul {
 nav ul ul ul {
 	position: absolute; left: 100%; top:0;
 }			
-#footer{}
+#footer{
+	background: #232323;
+	margin:0 auto;
+	font-family: arial;
+	font-size: 11px;
+}
+
+#secoes {
+width: 300px;
+
+}
