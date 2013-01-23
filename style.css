@@ -56,11 +56,80 @@ body{}
 margin:0 auto;
 }
 
-#bread-header {
+#bg-header {
 height:30px;
 background:#232323;
 }
 
+#bread-header {
+color:#fff;
+font-family:arial;
+font-size:12px;
+}
+#bread-header a{
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+padding:0px 5px;
+}
+#bread-header ul li {
+float:left;
+margin-top:10px;
+margin-left:5px;
+}
+
+#bread-header2 {
+height:30px;
+background:#232323;
+color:#fff;
+font-family:arial;
+font-size:12px;
+}
+#bread-header2 a{
+color:#fff;
+text-decoration:none;
+text-transform:uppercase;
+padding:0px 5px;
+}
+
+#bread-header2 ul {
+float:right;
+}
+#bread-header2 ul li {
+float:left;
+margin-top:10px;
+margin-left:5px;
+}
+
+#caixa{
+			position: relative;
+			width: 170px;
+			float: right;
+			}
+			
+				#topo  #caixa #url {
+				border: solid 2px #c4bebb;
+				background:#fff;
+				width: 140px;
+				height: 20px;
+				padding-left: 30px;
+				font-family:headland one;
+				font-size:14px;
+				}
+				
+				#lupa {
+				background:url(images/lupa.png)no-repeat;
+				width: 13px;
+				height: 13px;
+				border: none !important;
+				text-indent: -9000px;
+				cursor: pointer;
+				position:absolute;
+				margin-left:2px;
+				margin-top:2px;
+				}
+				
+				
 #logo{
 width:220px;
 height:110px;
@@ -94,10 +163,11 @@ nav ul {
 	position: relative;
 	display: inline-table;
 }
-nav ul li:nth-child(1){
-background:#232323;
-}
 
+nav ul li:first-child a{
+background:#232323;
+color:#fff;
+}
 
 	nav ul:after {
 		content: ""; clear: both; display: block;
@@ -129,7 +199,7 @@ nav ul li {
 	
 	nav ul li a {
 		display: block; padding:15px 10px;
-		color: #969696; text-decoration: none;
+		color: #232323; text-decoration: none;
 	}	
 nav ul ul {
 	background: #232323; border-radius: 0px; padding: 0;
