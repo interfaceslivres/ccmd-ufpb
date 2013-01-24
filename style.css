@@ -243,7 +243,7 @@ nav ul ul ul {
 }
 	
 	#lista-accordion{
-		width: 320px;
+		width: 280px;
 		margin-left: 25px;
 		line-height: 15px;
 		margin-bottom: 10px;
@@ -259,8 +259,15 @@ nav ul ul ul {
 	float: right;
 	width: 8px;
 	height: 10px;
-	margin-right: 130px;
+	margin-right: 100px;
 	margin-top: 2px;
+	}
+	
+	#lista-accordion a {
+	font-family: arial;
+	color: #fff;
+	text-decoration: none;
+	
 	}
 	
 #secoes {
@@ -269,9 +276,9 @@ line-height: 15px;
 
 #localizacao {
 float: left;
-width: 280px;
+width: 260px;
 color: #fff;
-margin-top: 5px;
+margin: 5px 0px 0px 20px;
 }
 
 	#localizacao h3 {
@@ -282,5 +289,35 @@ margin-top: 5px;
 	
 	#localizacao br {
 	float: left;
-	
 	}
+	
+#contato {
+float: left;
+width: 280px;
+color: #fff;
+margin: 5px 0px 0px 50px;
+}	
+	
+	#contato h3 {
+	font-family: arial;
+	font-size: 14px;
+	float: left;
+	}	
+	
+	#contato img{
+	float: right;
+	width: 8px;
+	height: 10px;
+	margin-right: 130px;
+	margin-top: 2px;
+	}	
+	
+.newsletter {
+float: left;
+margin-top: 50px;
+}
+
+.newsletter img {
+float: left;
+margin: 50px 0px 0px 0px;
+}
