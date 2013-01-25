@@ -246,78 +246,127 @@ nav ul ul ul {
 		width: 280px;
 		margin-left: 25px;
 		line-height: 15px;
-		margin-bottom: 10px;
+		margin: 10px 0px 0px 25px;
 		float:left;
 	}
 	
 	#lista-accordion h3 {
-	font-size: 14px;
-	padding: 5px;
+		font-size: 14px;
 	}
 	
 	#lista-accordion img {
-	float: right;
-	width: 8px;
-	height: 10px;
-	margin-right: 100px;
-	margin-top: 2px;
+		float: right;
+		width: 8px;
+		height: 10px;
+		margin-right: 100px;
+		margin-top: 2px;
 	}
 	
 	#lista-accordion a {
-	font-family: arial;
-	color: #fff;
-	text-decoration: none;
+		font-family: arial;
+		color: #fff;
+		text-decoration: none;
 	
 	}
 	
 #secoes {
-line-height: 15px;
+	line-height: 15px;
 }
 
 #localizacao {
-float: left;
-width: 260px;
-color: #fff;
-margin: 5px 0px 0px 20px;
+	float: left;
+	width: 260px;
+	color: #fff;
+	margin: 10px 0px 0px 20px;
 }
 
 	#localizacao h3 {
-	font-family: arial;
-	font-size: 14px;
-	float: left;
+		font-family: arial;
+		font-size: 14px;
+		float: left;
 	}
 	
 	#localizacao br {
-	float: left;
+		float: left;
 	}
 	
 #contato {
-float: left;
-width: 280px;
-color: #fff;
-margin: 5px 0px 0px 50px;
+	float: left;
+	width: 295px;
+	color: #fff;
+	margin: 10px 0px 0px 50px;
 }	
 	
 	#contato h3 {
-	font-family: arial;
-	font-size: 14px;
-	float: left;
+		font-family: arial;
+		font-size: 14px;
+		float: left;
 	}	
 	
 	#contato img{
-	float: right;
-	width: 8px;
-	height: 10px;
-	margin-right: 130px;
-	margin-top: 2px;
+		float: right;
+		width: 8px;
+		height: 10px;
+		margin-right: 130px;
+		margin-top: 2px;
 	}	
 	
-.newsletter {
-float: left;
-margin-top: 50px;
+		.newsletter {
+			float: left;
+			margin-top: 50px;
+			width: 300px;
+		}
+
+#redes-sociais {
+	float: left;
+	width: 295px;
 }
 
-.newsletter img {
-float: left;
-margin: 50px 0px 0px 0px;
-}
+		.twitter {
+			width: 15px;
+			height: 15px;
+			background: #aadae4;
+			float: left;
+			margin: 25px 0 0 15px;
+		}
+		
+		.facebook {
+			width: 15px;
+			height: 15px;
+			background: #44619d;
+			float: left;
+			margin: 25px 0 0 15px;
+		}
+		
+		.in {
+			width: 15px;
+			height: 15px;
+			background: #499ed6;
+			float: left;
+			margin: 25px 0 0 15px;
+		}
+		
+		.youtube {
+			width: 15px;
+			height: 15px;
+			background: #ed3e3e;
+			float: left;
+			margin: 25px 0 0 15px;
+		}
+
+		
+	#rodape {
+		width: 940px;
+		float: left;
+	}	
+	
+		#rodape p {
+			margin: 25px 0px 15px 0px;
+			font-size: 12px;
+		}
+	
+		#rodape a {
+		text-decoration: none;
+		color: #fff;
+		}
+	
