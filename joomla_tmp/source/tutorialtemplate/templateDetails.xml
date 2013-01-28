@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.5/template-install.dtd">
+<install version="1.5" type="template">
+	<name>Tutorial Template</name>
+	<creationDate>10/05/10</creationDate>
+	<author>Ryan Olson</author>
+	<authorEmail>ryan@thatryan.com</authorEmail>
+	<authorUrl>http://thatryan.com</authorUrl>
+	<copyright></copyright>
+	<license></license>
+	<version>1.0</version>
+	<description>Template from tutorial creation</description>
+	
+	<files>
+		<filename>component.php</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+	</files>
+	
+	<positions>
+		<position>main_nav</position>
+		<position>featured</position>
+		<position>side_content</position>
+		<position>columns</position>
+		<position>images</position>
+		<position>footer</position>
+	</positions>
+	
+	<params>
+	
+	<param type="spacer" default="&lt;b&gt;Template Parameters&lt;/b&gt;" />
+	    
+	    <param name="style" type="radio" default="style" label="Style Sheet" description="Choose Color Style">
+                	<option value="style">Default</option>
+                	<option value="dark">Dark</option>
+        </param>
+
+        <param name="copyright" type="text" default="" label="Copyright" description="Enter Copyright Text" />
+
+	    
+	    <param name="pretty" type="list" default="style" label="prettyphoto" description="Choose popup Style">
+        	<option value="dark_rounded">Dark Rounded</option>
+        	<option value="dark_square">Dark Square</option>
+        	<option value="facebook">Facebook Style</option>
+        	<option value="light_rounded">Light Rounded</option>
+        	<option value="light_square">Light Square</option>
+        </param>
+        
+        <param type="spacer" default="&lt;b&gt;Feature Slider&lt;/b&gt;" />
+
+        <param name="image1" type="imagelist" default="" label="Select an image" description="Slide 1 Image" directory="/templates/tutorialtemplate/images/slides/" exclude="" stripext="" />
+        <param name="caption1" type="text" default="" label="Caption" description="Enter Image Text" />
+
+        <param name="image2" type="imagelist" default="" label="Select an image" description="Slide 2 Image" directory="/templates/tutorialtemplate/images/slides/" exclude="" stripext="" />
+        <param name="caption2" type="text" default="" label="Caption" description="Enter Image Text" />
+
+        <param name="image3" type="imagelist" default="" label="Select an image" description="Slide 3 Image" directory="/templates/tutorialtemplate/images/slides/" exclude="" stripext="" />
+        <param name="caption3" type="text" default="" label="Caption" description="Enter Image Text" />
+
+        <param name="image4" type="imagelist" default="" label="Select an image" description="Slide 4 Image" directory="/templates/tutorialtemplate/images/slides/" exclude="" stripext="" />
+        <param name="caption4" type="text" default="" label="Caption" description="Enter Image Text" />
+    
+	</params>
+	
+</install>
