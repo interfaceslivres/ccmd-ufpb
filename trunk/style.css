@@ -215,13 +215,20 @@ nav ul li {
 	}	
 nav ul ul {
 	background: #232323; border-radius: 0px; padding: 0;
-	position: absolute; top: 100%;
+	position: absolute; top: 100%; 
+	
 }
-	nav ul ul li {
+	nav ul li ul li {
 		float: none; 
-		border-top: 1px solid #3c3c3c;
 		position: relative;
+		
 	}
+	
+		nav ul li ul {
+		-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.6);
+		box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.6);
+		} 
+	
 		nav ul ul li a {
 			padding:10px 40px;
 			color: #fff;
