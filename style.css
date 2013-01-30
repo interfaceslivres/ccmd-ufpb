@@ -386,6 +386,41 @@ nav ul ul ul {
 		
 /* PÁGINA ESTÁTICA - PAGE */
 
+#barra-topo {
+width:100%;
+height:20px;
+background:#232323;
+margin-top:20px;
+}
+
+#zoom-letras {
+float:right;
+padding:5px 0px;
+
+}
+
+#zoom-letras1 {
+background: url(images/zoom-letras.jpg) 0px 0px;
+width:17px;
+height:16px;
+float:left;
+}
+
+#zoom-letras2 {
+background: url(images/zoom-letras.jpg) -18px 0px;
+width:17px;
+height:16px;
+float:left;
+padding:0px 2px 0px 2px;
+}
+
+#zoom-letras3 {
+background: url(images/zoom-letras.jpg) -40px 0px;
+width:17px;
+height:16px;
+float:left;
+}
+
 #page {
 margin: 0 auto;
 }
@@ -396,8 +431,9 @@ font-size:16px;
 text-transform:uppercase;
 color:#000000;
 font-weight:bold;
-width:85%;
+width:720px;
 padding:5px 0px;
+float:left;
 }
 
 #page h2 {
@@ -410,7 +446,7 @@ padding:5px 0px;
 }
 
 #page p {
-margin-top:20px;
+margin-top:40px;
 margin-bottom:20px;
 font-family:arial;
 font-size:14px;
@@ -427,9 +463,5 @@ float:right;
 padding: 10px 0px 10px 10px;
 }
 
-#barra-topo {
-width:100%;
-height:20px;
-background:#232323;
-}
+
 	
