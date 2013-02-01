@@ -258,9 +258,18 @@ nav ul ul ul {
 	}
 	
 	#lista-accordion h3 {
+		cursor: pointer;
 		font-size: 14px;
 		line-height: 25px;
 		font-family: tahoma, geneva, verdana, sans-serif;
+	}
+	
+	#lista-accordion h2 {
+		cursor: pointer;
+		font-size: 14px;
+		line-height: 25px;
+		font-family: tahoma, geneva, verdana, sans-serif;
+		margin-top: 20px;
 	}
 	
 	#lista-accordion img {
