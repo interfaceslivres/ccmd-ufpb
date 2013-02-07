@@ -505,18 +505,18 @@ padding:3px 0px 3px 6px;
 margin-top:5px;
 }
 
-#barra-post {
+#barra-postagem {
 width: 650px;
 height: 20px;
 background: #232323;
 margin-top: 20px;
 }
 
-#barra-post p {
+#barra-postagem p {
 color:#fff;
 font-size:12px;
 font-family:arial;
-padding:4px;
+padding:2px;
 }
 
 #data {
@@ -527,12 +527,20 @@ float:right;
 float:left;
 }
 
+#compartilhamento {
+float: right;
+margin: 0px 25px;
+}
+
 #postagem {
 float:left;
 width:650px;
+margin-left: 38px;
+margin-bottom: 40px;
 }
 
 #postagem h1 {
+width:590px;
 font-family:arial;
 font-size:16px;
 text-transform:uppercase;
@@ -547,14 +555,45 @@ font-family:arial;
 font-size:14px;
 color:#000000;
 font-weight:bold;
-padding:5px 0px;
+padding:8px 0px;
+float:left;
 }
 
 #postagem p {
 font-family:arial;
 font-size:14px;
 line-height:16px;
+float:left;
+}
+
+#relacionadas{
+float: left;
+margin-top: 30px;
+margin-bottom: 30px;
+width: 650px;
+margin-left: 290px;
+}
+
+#relacionadas h1 {
+font-size:14px;
+font-family:arial;
+color:#000;
+line-height:20px;
+border-bottom:4px solid #212121;
+margin-bottom:12px;
+}
+
+#relacionadas ul {
+float:left;
+list-style: none;
+}
+
+#relacionadas li {
+text-transform:uppercase;
+font-family:arial;
+font-size:12px;
 padding:4px;
+font-weight:bold;
 }
 
 	
