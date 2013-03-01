@@ -50,10 +50,12 @@ width: 940px;
 
 body{}
 
-#wrapper{}
+#wrapper{
+margin:0 auto;
+width: 940px;
+}
 
 #header{
-margin:0 auto;
 }
 
 #bg-header {
@@ -145,7 +147,7 @@ margin-top: 7px;
 #logo{
 width:220px;
 height:110px;
-background:url(images/logo.png)no-repeat;
+background: url(images/logo.png) no-repeat;
 float:left;
 margin-top:5px;
 }
@@ -154,6 +156,7 @@ margin-top:5px;
 position:relative;
 font-family:arial;
 font-size:14px;
+height: 135px;
 }
 
 #menu p{
@@ -161,14 +164,14 @@ color:#969696;
 padding-top:30px;
 }
 
-nav ul ul {
+#menu ul ul {
 	display: none;
 }
 
-	nav ul li:hover > ul {
+	#menu ul li:hover > ul {
 		display: block;
 	}
-nav ul {
+#menu ul {
 	background: #fff; 
 	padding: 0 10px;
 	list-style: none;
@@ -176,77 +179,390 @@ nav ul {
 	display: inline-table;
 }
 
-nav ul li:first-child a{
+#menu ul li:first-child a{
 background:#232323;
 color:#fff;
 }
 
-	nav ul:after {
+	#menu ul:after {
 		content: ""; clear: both; display: block;
 	}
 	
-nav ul li {
+#menu ul li {
 	float: left;
 }
-	nav ul li:hover {
+	#menu ul li:hover {
 		background: #232323;
 	}
-		nav ul li:hover a {
+		#menu ul li:hover a {
 			color: #fff;
 		}
 	
-	nav ul li a {
+	#menu ul li a {
 		display: block; padding: 10px;
 		color: #232323; text-decoration: none;
 	}	
-nav ul li {
+#menu ul li {
 	float: left;
 }
-	nav ul li:hover {
+	#menu ul li:hover {
 		background: #232323;
 	}
-		nav ul li:hover a {
+		#menu ul li:hover a {
 			color: #fff;
 		}
 	
-	nav ul li a {
+	#menu ul li a {
 		display: block; padding:15px 10px;
 		color: #232323; text-decoration: none;
 	}	
-nav ul ul {
+#menu ul ul {
 	background: #232323; border-radius: 0px; padding: 0;
 	position: absolute; top: 100%; 
 	
 }
-	nav ul li ul li {
+	#menu ul li ul li {
 		float: none; 
 		position: relative;
 		
 	}
 	
-		nav ul li ul {
+		#menu ul li ul {
 		-webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.6);
 		box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.6);
 		} 
 	
-		nav ul ul li a {
+		#menu ul ul li a {
 			padding:10px 40px;
 			color: #fff;
 		}	
-			nav ul ul li a:hover {
+			#menu ul ul li a:hover {
 				background: #fff;
 				color:#232323;
 			}
 			
-nav ul ul ul {
+#menu ul ul ul {
 	position: absolute; left: 100%; top:0;
 }			
+
+
+	
+/* --- CONTENT -----------------------------------------------------------------------------------*/
+
+	#banner-principal {
+	float:left;
+	width: 580px;
+	height: 262px;
+	}
+
+	#noticias {
+	position: relative;	
+	float: left;
+	width:340px;
+	padding:0px 0px 0px 20px;
+	}
+	
+	#noticias h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height:20px;
+	color: #333;
+	border-bottom:5px solid #333;
+	}
+	
+	#content { 
+	float:left;
+	width:100%;
+	}
+	
+
+	#content  h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	color: #333;
+}	
+
+	#content h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #999;
+	padding-bottom: 5px;
+	padding-left: 10px;
+
+}
+
+	#noticias p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	padding-left: 10px;
+}
+
+
+
+	#content-meio {
+	float:left;
+	margin-top:20px;
+	}
+
+	
+	
+	.usuarios {
+	font-size: 14px;
+	color: #FFF;
+	display: block;
+	line-height: 35px;
+	font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.usuarios h3 {
+	padding-left: 20px;
+	}
+	
+	
+	.bg-menu{
+	width: 8px;
+	float: left;
+	height: 36px;
+	}
+	
+/* --- USUARIO ALUNO ------------------------------------------------------------------------------*/
+	
+	.usuarios#aluno {
+	background-color:#f2385a;
+	}
+	
+	#bg-aluno {
+	background-color:#f2385a;
+	}
+	
+	#menu_aluno {
+	position: relative;
+	float: left;
+	}
+
+	#menu_aluno ul {
+	list-style-type:none;
+	width: 220px;
+	display:block;
+	}
+	
+	#menu_aluno ul li {
+	height: 36px;
+	width: 220px;
+	margin-top:0px;
+	margin-bottom: 4px;
+	vertical-align: middle;
+	text-align: left;
+	}
+
+	#menu_aluno ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #111;
+	height: 24px;
+	text-decoration:none;
+	display: block;
+	padding-top: 12px;
+	padding-left: 20px;
+	}
+	
+	#menu_aluno ul li a:visited {
+	text-transform: none;
+	}
+	
+	#menu_aluno ul li a:hover {
+	background-color:#f2385a;
+	color: #FFF;
+	font-weight: bold;
+	}
+
+	#menu_aluno ul li a:active {
+	text-transform: none;
+	}
+
+
+/* --- FIM DE USUARIO ALUNO -----------------------------------------------------------------------*/
+
+/* --- USUARIO PROFESSOR --------------------------------------------------------------------------*/
+	
+	.usuarios#professor {
+	background-color:#36b1bf;
+	}
+	
+	#bg-professor {
+	background-color:#36b1bf;
+	}
+	
+	#menu_professor {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	}
+	
+	#menu_professor ul li {
+	height: 36px;
+	width: 220px;
+	margin-top:0px;
+	margin-bottom: 4px;
+	vertical-align: middle;
+	text-align: left;
+	}
+
+	#menu_professor ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #111;
+	height: 24px;
+	text-decoration:none;
+	display: block;
+	padding-top: 12px;
+	padding-left: 20px;
+	}
+	#menu_professor ul li a:visited {
+	text-transform: none;
+	}
+	
+	#menu_professor ul li a:hover {
+	background-color:#36b1bf;
+	color: #FFF;
+	font-weight: bold;
+	}
+	
+	#menu_professor ul li a:active {
+	text-transform: none;
+	}
+
+/* --- FIM DE USUARIO PROFESSOR --------------------------------------------------------------------*/
+
+/* --- USUARIO VISITANTE ---------------------------------------------------------------------------*/
+	
+	.usuarios#visitante {
+	background-color:#f5a503;
+	}
+	
+	#bg-visitante {
+	background-color:#f5a503;
+	}
+
+	#menu_visitante {
+	position: relative;
+	float: left;
+	margin-left: 20px;
+	}
+	
+	#menu_visitante ul li {
+	height: 36px;
+	width: 220px;
+	margin-top:0px;
+	margin-bottom: 4px;
+	vertical-align: middle;
+	text-align: left;
+	}
+
+	#menu_visitante ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #111;
+	height: 24px;
+	text-decoration:none;
+	display: block;
+	padding-top: 12px;
+	padding-left: 20px;
+	}
+/*	
+	#menu_visitante ul li a:visited {
+	text-transform: none;
+	} */
+	
+	#menu_visitante ul li a:hover {
+	background-color:#f5a503;
+	color: #FFF;
+	font-weight: bold;
+	}
+	
+/*	#menu_visitante ul li a:active {
+	text-transform: none;
+	} */
+
+/* --- FIM DE USUARIO VISITANTE ---------------------------------------------------------------------*/
+/* --- INICIO BARRA LATERAL -------------------------------------------------------------------------------*/
+
+	#barra-lateral {
+	float:left;
+	width:220px;
+	padding:0px 0px 0px 20px;
+	}
+	
+	#eventos {
+	position: relative;
+	float: left;
+	width:220px;
+	}
+	
+	#eventos h1 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height:20px;
+	color: #333;
+	border-bottom:5px solid #333;
+	}
+	
+	
+	.evento-data { 
+	background-color: #969696;
+	width: 60px;
+	height: 50px;
+	float:left;
+	border-bottom:1px solid #999;
+	}
+	
+	#eventos h4 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFF;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 17px;
+	}
+	
+	#eventos .evento-data:nth-child(6) {
+		background-color:#646464 !important;
+	}
+
+	.evento-sobre {
+	width: 160px;
+	height: 50px;
+	float:left;
+	border-bottom:1px solid #999 !important;
+	}
+	
+	#eventos h5 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000;
+	text-align: left;
+	margin: 6px 0 auto 12px;
+	display: block;
+	padding:3px;
+	
+	
+	}
+	
+/* --- FIM DE BARRA LATERAL -------------------------------------------------------------------------------*/
+	
+/* --- FIM DE CONTENT -------------------------------------------------------------------------------*/
+
+
+
 #footer{
 	background: #232323;
 	font-family: tahoma, geneva, verdana, sans-serif;
 	font-size: 12px;
 	color: #fff;
 	float: left;
+	margin-top: 20px;
 	}
 	
 	#lista-accordion{
