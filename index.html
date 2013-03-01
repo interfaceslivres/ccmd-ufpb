@@ -7,8 +7,9 @@
 <meta name="keywords" content="" />
 <meta name="author" content="" />
 <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" /> 
   <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js"></script> 
   <script src="http://code.jquery.com/ui/1.10.0/jquery-ui.js" >
   </script>
   <script>
@@ -29,8 +30,10 @@
 
 </head>
 	<body id="home"class="container_12">
-		<div id="header" class="grid_12">
-			<div id="wrapper" >
+	
+		<div id="wrapper" >
+			<div id="header" class="grid_12">
+
 				
 					<div id="bg-header">
 						<div  id="bread-header">
@@ -77,7 +80,6 @@
 					
 					<div id="menu">
 					
-					<nav>
 						<ul>
 							<li><a href="#">CCMD</a>
 								<ul>
@@ -107,12 +109,113 @@
 							<li><a href="#">Moodle</a></li>
 							<li><a href="#">Links Externos</a></li>
 						</ul>
-					</nav>
 					
 						<p>A Coordenação de Mídias Digitais... Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 					</div>
+			</div> <!-- fim do header -->		
 					
-			</div> <!-- End #wrapper -->
+				<div id="content" class="container_12">
+					<div id="content-topo" class="grid_12">
+						<div id="banner-principal">
+							<img src="images/bannerexemplo.jpg" alt="banner exemplo"/>
+						</div> <!-- End #banner_principal -->
+						
+						<div id="noticias">            
+							<h1>Notícias</h1>
+							<span style="float:right; margin-top:-20px;"><h2>Ver todas</h2></span>
+							
+							<span style="padding:15px 0px 0px 0px; float:left;">
+								<div id="conteudo-not">
+									<h2>21 de Outubro de 2012</h2>
+									<p>Aprovada licitação do bloco do DEMID</p>
+									<h2>15 de Outubro de 2012</h2>
+									<p>Culturas midiáticas audiovisuais</p>
+									<h2>04 de Outubro de 2012</h2>
+									<p>Mídias digitais e novas tecnologias serão tema</p>
+								</div> <!-- End #conteudo-not -->
+							</span>
+							
+						</div> <!-- End #noticias -->
+					</div> <!-- End #content-topo -->
+					
+					<div class="clear"></div>
+					
+					<div id="content-meio" class="grid_12">
+						<div id="menu_usuario">
+						
+							<div id="menu_aluno">
+							<img src="images/pencil_background.jpg" width="220" height="150" alt="alunos" />
+							<ul>
+								<li class="usuarios" id="aluno"><h3>Aluno</h3></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Aluno Online</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Formulários</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Oportunidades de Trabalho</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Links Interessantes</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Produção Discente</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">CA de Mídias Digitais</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Departamento de Mídias Digitais</a></li>
+								<li><div class="bg-menu" id="bg-aluno"></div><a href="#">Empresa Júnior</a></li>
+							</ul>
+							
+						</div> <!-- End #menu_aluno -->
+							<div id="menu_professor">
+							<img src="images/reading_education.jpg" width="220" height="150" alt="professores" />
+							<ul>
+								<li  class="usuarios" id="professor"><h3>Professor</h3></li>
+								<li><div class="bg-menu" id="bg-professor"></div><a href="#">Link</a></li>
+								<li><div class="bg-menu" id="bg-professor"></div><a href="#">Lorem Ipsum</a></li>
+								<li><div class="bg-menu" id="bg-professor"></div><a href="#">Exemplo de Link</a></li>
+								<li><div class="bg-menu" id="bg-professor"></div><a href="#">Outro Link</a></li>
+								<li><div class="bg-menu" id="bg-professor"></div><a href="#">Página Tal</a></li>
+							</ul>
+							</div> <!-- End #menu_professor -->
+							
+						  <div id="menu_visitante">
+							<img src="images/stockvault-woman-using-computer115011.jpg" width="220" height="150" alt="visitante" />
+							<ul>
+								<li  class="usuarios" id="visitante"><h3>Visitante</h3></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Cartilha para os Feras</a></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Visita Virtual</a></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Diretrizes e Regulamentos</a></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Feira das Profissões</a></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Revista Culturas Midiáticas</a></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Mais Link</a></li>
+								<li><div class="bg-menu" id="bg-visitante"></div><a href="#">Etc</a></li>
+							</ul>
+							</div> <!-- End #menu_visitante -->                
+										
+						</div> <!-- End #menu_usuario --> 
+					
+					
+						<div id="barra-lateral">
+							<div id="eventos">
+							
+								<h1>Eventos</h1>
+								<span style="float:right; margin-top:-20px;"><h2>Ver todas</h2></span>
+								
+								<span style="padding-top:10px;"></span>
+									<div class="evento-data"> <h4>28 NOV</h4> </div>
+									<div class="evento-sobre"><h5>Concurso XYZ para vaga tal tal</h5></div>
+													
+									<div class="evento-data"><h4>25 DEZ</h4> </div>
+									<div class="evento-sobre"><h5>Feriado nacional: Natal</h5></div>
+														
+									<div class="evento-data"><h4>13 JAN</h4> </div>
+									<div class="evento-sobre"><h5>Exposição ABC: trabalhos produzidos na cadeira tal e muitos trabalhos!</h5></div>
+								
+								
+							</div> <!-- End #eventos -->
+							
+							<div id="banner_lateral">
+							</div> <!-- End #banner_lateral -->
+						</div> <!-- End #barra-lateral -->	
+							
+					</div> <!-- End #content-meio -->
+							 
+            
+            
+				</div> <!-- End #content -->	
+					
 			<div class="clear"></div>
 			<!-- Footer -->
 			<div id="footer" >
@@ -195,7 +298,7 @@
 					
 				</div>
 			</div>	
-		</div>	
+		</div>	<!-- fim do wrapper -->
 		
 	</body>
 </html>
