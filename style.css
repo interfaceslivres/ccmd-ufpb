@@ -566,11 +566,11 @@ color:#fff;
 	}
 	
 	#lista-accordion{
-		width: 280px;
+		width: 220px;
 		margin-left: 25px;
 		line-height: 15px;
-		margin: 17px 0px 0px 25px;
-		float:left;
+		margin: 17px 30px 0px 25px;
+		float: left;
 	}
 	
 	#lista-accordion h3 {
@@ -578,15 +578,13 @@ color:#fff;
 		font-size: 14px;
 		line-height: 25px;
 		font-family: tahoma, geneva, verdana, sans-serif;
+		background: url(images/seta.png) no-repeat right;
+	}
+
+	#lista-accordion .ui-accordion-header-active {
+		background: url(images/setaoff.png) no-repeat right;
 	}
 	
-	#lista-accordion h2 {
-		cursor: pointer;
-		font-size: 14px;
-		line-height: 25px;
-		font-family: tahoma, geneva, verdana, sans-serif;
-		margin-top: 20px;
-	}
 	
 	#lista-accordion img {
 		float: right;
@@ -596,13 +594,18 @@ color:#fff;
 		margin-top: 7px;
 	}
 	
+	#lista-accordion li {
+		margin-bottom: 3px;
+	}
+	
 	#lista-accordion a {
 		font-family: tahoma, geneva, verdana, sans-serif;
 		color: #fff;
 		text-decoration: none;
+		padding: 0 0 0 7px;
 	}
 	
-	a:hover {
+	#lista-accordion a:hover {
 	text-decoration: underline;
 	}
 	
@@ -612,7 +615,7 @@ color:#fff;
 
 #localizacao {
 	float: left;
-	width: 260px;
+	width: 319px;
 	color: #fff;
 	margin: 20px 0px 0px 20px;
 }
@@ -631,7 +634,7 @@ color:#fff;
 	float: left;
 	width: 295px;
 	color: #fff;
-	margin: 20px 0px 0px 50px;
+	margin: 20px 0px 0px 30px;
 }	
 	
 	#contato h3 {
