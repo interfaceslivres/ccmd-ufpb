@@ -25,6 +25,20 @@
 }
 
 // Top
+
+#rt-header {
+background: #fff;
+}
+input .search-query { 
+	padding-right:14px;
+	padding-right:4px \9;
+	padding-left:14px;
+	padding-left:4px \9;
+	margin-bottom:0;
+	height:20px;
+	
+} 
+
 #rt-top-surround {
 	#gradient > .vertical(@topbackground, @topbackground2);
 	color: @toptext;
@@ -33,7 +47,6 @@
 	border-bottom: 1px solid @topshadow;
 	.title {
 		color: @toptitle;
-		text-shadow: 1px 1px 1px @topshadow;
 	}
 	a {
 		&:hover {
@@ -44,6 +57,16 @@
 
 #rt-top-surround:after {
 	background: url(../images/patterns/noise.png);
+}
+
+#rt-top {
+background: @colorBase;
+height:35px;f
+}
+
+input .search-query {
+height:20px;
+border-radius:1px;
 }
 
 // Showcase
