@@ -31,10 +31,9 @@
 		font-size: @menuFontSize;
 		line-height: @menuLineHeight;
 		color: @menuTextColor;
-
-		padding: 4px 8px;
+		padding:6px 10px;
 		text-align: left;
-		text-shadow: 1px 1px 0 @menuTextShadow;
+		text-shadow:none;
 		text-decoration: none;
 		display: block;
 		outline: 0;
@@ -83,10 +82,21 @@
 	// Level 1 Style Overrides
 	&.l1 {
 		> li.active {
-			background: @menuActiveBack;
-			border: 1px solid @menuActiveBorder;
+			background: #232323;
+			color:#fff;
+			border:none;
 			.border-radius(@menuItemRadius);
-			.box-shadow(@menuActiveShadow);
+		//	.box-shadow(@menuActiveShadow);
+		}
+		
+		> li.active a {
+		color:#fff;
+		}
+		
+		>li.active:hover {
+			background:#fff;
+			color:#232323;
+			border:none;
 		}
 
 		> li > .item {
@@ -122,11 +132,14 @@
 
 	// Parent items
 	li.parent {
-
+	
 		> .item {
 			position: relative;
 			padding-right: 25px;
-
+			color:#232323;
+						
+			
+			
 			&:after {
 				color: @menuArrowColor;
 				position: absolute;
@@ -151,12 +164,17 @@
 		text-align: left;
 		border: 1px solid @menuBorder;
 		border-top: 0;
-		background: @menuDropBack;
+		background: #232323;
 		.transition(opacity 0.2s ease-out);
-		.border-radius(0 5px 5px 5px);
+		.border-radius(0 0 0 0);
 		.box-shadow(@menuFullShadow);
 		z-index: 1000;
 
+		.item {
+		color:#fff;
+		background:#232323;
+		}
+				
 		.flyout {
 			display: block;
 		}
@@ -167,7 +185,7 @@
 				display:block;
 				float:none;
 				margin-right: 0;
-				padding: 0 5px;
+				padding: 0 0px;
 				border: 0;
 
 				&.active {
@@ -177,11 +195,14 @@
 				}
 
 				.item {
-					border: 1px solid transparent;
+					border: none;
 				}
+				
 
 				&.parent {
-					> .item:after {
+									
+					>
+					.item:after {
 						margin-top: -10px;
 						font-family: FontAwesome;
 						// content: "\f0da"; // icon-caret-right
@@ -213,7 +234,7 @@
 				background: @menuActiveBack;
 				border: 1px solid @menuActiveBorder;
 				.border-radius(@menuItemRadius);
-				.box-shadow(@menuActiveShadow);
+			//	.box-shadow(@menuActiveShadow);
 				margin: 6px 0px;
 				padding: 3px 0;
 
@@ -302,9 +323,9 @@
 	cursor: pointer;
 
 	&.active {
-
+		background:#232323; 
 		border: 1px solid @menuActiveBorder;
-		.box-shadow(@menuActiveShadow);
+	//	.box-shadow(@menuActiveShadow);
 		#gradient > .vertical(@menuMobileGradient, darken(@menuMobileGradient,15%));
 	}
 
@@ -416,7 +437,7 @@
 							background: @menuActiveBack;
 							border: 1px solid @menuActiveBorder !important;
 							.border-radius(@menuItemRadius);
-							.box-shadow(@menuActiveShadow);
+						//	.box-shadow(@menuActiveShadow);
 						}
 					}
 				}
@@ -439,7 +460,8 @@
 
 				&:hover > .item {
 					color: @menuTextHover !important;
-					text-shadow: 1px 1px 0 @menuTextShadow;
+					text-shadow:none;
+					background:#232323;
 				}
 
 				.item {
