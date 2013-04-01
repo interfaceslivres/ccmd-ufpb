@@ -84,9 +84,8 @@
 	&.l1 {
 		> li.active {
 			background: @menuActiveBack;
-			border: 1px solid @menuActiveBorder;
+			border: 0px solid @menuActiveBorder;
 			.border-radius(@menuItemRadius);
-			.box-shadow(@menuActiveShadow);
 		}
 
 		> li > .item {
@@ -144,18 +143,17 @@
 	// Dropdown styling
 	.dropdown {
 		margin: 0 auto;
-		padding: 10px 0;
+		padding: 0px 0;
 		position: absolute;
 		opacity: 0;
 		left: -999em;
 		text-align: left;
-		border: 1px solid @menuBorder;
-		border-top: 0;
-		background: @menuDropBack;
+		border: none;
+		border-top: none;
+		background: @colorBase;
 		.transition(opacity 0.2s ease-out);
-		.border-radius(0 5px 5px 5px);
-		.box-shadow(@menuFullShadow);
-		z-index: 1000;
+		border-radius:0px;
+		box-shadow:none;
 
 		.flyout {
 			display: block;
@@ -167,18 +165,31 @@
 				display:block;
 				float:none;
 				margin-right: 0;
-				padding: 0 5px;
-				border: 0;
+				padding: 0 0px;
+				border: none;
 
 				&.active {
 					> .item {
 						color: @menuTextHover;
+						border:none;
 					}
 				}
 
 				.item {
-					border: 1px solid transparent;
+					padding-top:8px;
+					padding-bottom:8px;
+					border: none;
+					color:#fff;
+					
+				.item:hover {
+				color:@colorBase;
 				}
+				
+				}
+				
+				
+				
+				
 
 				&.parent {
 					> .item:after {
@@ -304,7 +315,7 @@
 	&.active {
 
 		border: 1px solid @menuActiveBorder;
-		.box-shadow(@menuActiveShadow);
+		box-shadow:none;
 		#gradient > .vertical(@menuMobileGradient, darken(@menuMobileGradient,15%));
 	}
 
