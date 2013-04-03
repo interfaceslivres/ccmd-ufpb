@@ -83,11 +83,14 @@
 	// Level 1 Style Overrides
 	&.l1 {
 		> li.active {
-			background: @menuActiveBack;
+			background: @colorBase;
 			border: 0px solid @menuActiveBorder;
+			color:#fff !important;
 			.border-radius(@menuItemRadius);
+		
 		}
-
+		
+		
 		> li > .item {
 			font-size: @menuFontSize + 2;
 			line-height: @menuLineHeight + 3;
@@ -173,6 +176,7 @@
 						color: @menuTextHover;
 						border:none;
 					}
+					
 				}
 
 				.item {
