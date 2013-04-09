@@ -25,16 +25,35 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 // Footer
+
+
+
 #rt-footer {
-	color: @footertext;
-	background: @footerbackground url(../images/patterns/noise.png);
-	border-top: 1px solid #afafaf;
-	.box-shadow(inset 0 5px 12px rgba(0,0,0,0.13));
+	color: @white;
+	background: @colorBase;
+	border-top:none;
+	box-shadow:none;
+	
+#rt-footer .module-content p {
+	color:@white;
+}	
+	
+.rt-container .rt-block h2{ 
+color:@white;
+box-shadow:none;
+text-shadow:none;
+border-bottom:none;
+}	
+	
 }
+
 #rt-copyright {
-	border-top: 1px solid @bodyborder;
-	.box-shadow(inset 0 1px 0 @white);
+	border-top:none;
+	box-shadow:none;
+	background:@colorBase;
+	color:@white;
 }
+
 
 // Modules
 .title, .component-content h2 {
