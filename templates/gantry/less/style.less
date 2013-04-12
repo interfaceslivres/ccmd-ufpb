@@ -191,11 +191,26 @@ ul.menu {
 	}
 }
 .breadcrumbs, .breadcrumb {
+
+	background:@colorBase;
+	color:@white;
+	text-shadow:none;
+	box-shadow:none;
+	
 	a {
+	text-shadow:none;
+	box-shadow:none;
+	color:@white;
+	
 		&:after {
 			color: @bodytextlight;
 		}
 	}
+	
+	li {
+	text-shadow:none;
+	}
+	
 	.showHere {
 		font-weight: bold;
 		margin-right: 5px;
