@@ -8,6 +8,8 @@
 	// Bottom border fixer
 	&.l1 > li {
 		&:hover > .item {
+		
+			
 			.border-fixer {
 				display:block;
 				position: absolute;
@@ -27,9 +29,9 @@
 			border: none;
 			background: @menuDropBack;
 			padding-top: 0px;
-			.border-radius(@menuItemRadius);
+			border-radius:none;
 			border-top: 0;
-			.box-shadow(@menuInsetShadow);
+			box-shadow:none;
 			color:@colorBase;
 
 			> .dropdown {
@@ -45,13 +47,17 @@
 			color: @menuTextHover !important;
 			text-shadow:none;
 			background: @colorBase;
+			border-radius:none;
+			box-shadow:none;
+			
 		}
 	}
 
 	// Parent items
 	li.parent {
 		&:hover {
-			.border-radius(@menuItemRadius @menuItemRadius 0 0);
+			text-shadow:none;
+			border-radius:none;
 			color:@colorBase;
 		}
 	}
