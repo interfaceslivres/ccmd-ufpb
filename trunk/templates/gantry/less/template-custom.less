@@ -22,12 +22,18 @@ a {
 	padding: 0 15px;
 	margin: 7px 10px;
 }
-#rt-logo {
+
+@media (min-width: 768px) and (max-width: 959px) {
+
+.rt-block.logo-block #rt-logo {
 	margin: 0;
-	width: 112px;
-	height: 46px;
+	background:url(/ccmd/images/logo.png) 50% 0 no-repeat !important;
+	background-size:155px !important;
+	width: 155px !important;
 	display: block;
+} 
 }
+
 
 // Header
 #rt-top-surround {
@@ -244,7 +250,6 @@ form.gantry-example {
 }
 
 // Features
-
 
 #rt-accessibility {
 	.rt-desc {
