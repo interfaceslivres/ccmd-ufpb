@@ -27,9 +27,8 @@
 	li {
 		&:hover, &.active:hover {
 			border: none;
-			background: @menuDropBack;
 			padding-top: 0px;
-			border-radius:none;
+			border-radius: 0;
 			border-top: 0;
 			box-shadow:none;
 			color:@colorBase;
@@ -49,7 +48,8 @@
 			background: @colorBase;
 			border-radius:none;
 			box-shadow:none;
-			
+			padding-right: 8px;
+			padding-left: 8px;
 		}
 	}
 
@@ -59,7 +59,16 @@
 			text-shadow:none;
 			border-radius:none;
 			color:@colorBase;
+		
+		.item {
+			padding-right: 24px;
+			padding-left: 9px;
 		}
+		
+		}
+		
+		
+		
 	}
 
 	// Dropdown styling
