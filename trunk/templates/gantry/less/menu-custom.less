@@ -8,7 +8,7 @@
 .gf-menu {
 
 	// Menu positioning
-	margin: -18px auto 0;
+	margin: -19px auto 0;
 	list-style: none;
 
 	// Clears
@@ -31,7 +31,7 @@
 		font-size: @menuFontSize;
 		line-height: @menuLineHeight;
 		color: @menuTextColor;
-		padding: 4px 8px;
+		padding: 5px 8px;
 		text-align: left;
 		text-shadow:none;
 		text-decoration: none;
@@ -93,7 +93,7 @@
 			a {
 			color:@menuTextHover !important;
 			padding-left: 9px;
-			padding-right: 24px;
+			padding-right: 9px;
 			}
 		}
 		
@@ -133,7 +133,8 @@
 
 		> .item {
 			position: relative;
-			padding-right: 25px;
+			padding-right: 25px !important;
+			padding-left: 9px !important;
 
 			&:after {
 				color: @menuArrowColor;
