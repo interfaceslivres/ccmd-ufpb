@@ -10,7 +10,7 @@
 defined('_JEXEC') or die;
 ?>
 <div class="search<?php echo $moduleclass_sfx ?>">
-    <form action="<?php echo JRoute::_('index.php');?>" method="post" class="form-inline">
+    <form action="<?php echo JRoute::_('index.php?option=com_search&view=search&searchword=');?>" method="post" class="form-inline">
     		<?php
 				$output = '<label for="mod-search-searchword" class="element-invisible">' . $label . '</label> <input name="searchword" id="mod-search-searchword" maxlength="' . $maxlength . '"  class="inputbox'.$moduleclass_sfx.' search-query" type="text" size="' . $width . '" value="' . $text . '"  onblur="if (this.value==\'\') this.value=\'' . $text . '\';" onfocus="if (this.value==\'' . $text . '\') this.value=\'\';" />';
 
