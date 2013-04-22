@@ -37,12 +37,19 @@ h1, h2, h3, h4, h5, h6 {
 #rt-footer .module-content p {
 	color:@white;
 }	
+
+
 	
 .rt-container .rt-block h2{ 
-color:@white;
-box-shadow:none;
-text-shadow:none;
-border-bottom:none;
+margin-top: 15px;
+text-shadow: none;
+font-size: 17px;
+font-weight: lighter;
+color: #fff;
+border-bottom: 2px solid #fff;
+line-height: 0px;
+box-shadow: none;
+
 }	
 	
 }
@@ -166,11 +173,41 @@ ul.menu {
 	border: 1px solid #d9d9d9;
 }
 .component-content {
+
+	.page-header h2 {
+	border-bottom:none;
+	}
+	.contact-position, .contact-address {
+		float:left;
+		} 
 	.contact {
+	
 		.title {
 			#gradient > .vertical(@bodycontrast, @bodyborder2);
 			border: 1px solid @bodyborder;
-			text-shadow: 0 1px 1px rgba(255,255,255,.75);
+			text-shadow: none;
+			color:@colorBase;
+			text-shadow:none;
+		}
+		
+		h2{
+		text-shadow:none;
+		}
+		
+		
+		
+		.jicons-icons {
+		display:none;
+		}
+		
+		h3 {
+		font-size:16px;
+		text-shadow:none;
+		color: @colorBase;
+		}
+		
+		h3:nth-child(2) {
+		display:none;
 		}
 	}
 }
@@ -262,9 +299,13 @@ blockquote {
 }
 
 // Forms
+
+
+
 legend {
-  color: @bodytitle;
-  border-bottom: 1px solid @bodyborder;
+  color: @colorBase;
+  border-bottom:none;
+  font-size:14px;
 
   small {
     color: @bodyborder;
@@ -346,8 +387,8 @@ textarea[readonly] {
 
 // Form Actions
 .form-actions {
-  background-color: @bodybackground2;
-  border-top: 1px solid @bodyborder;
+  background-color: @white;
+  border-top: none;
 }
 
 .uneditable-input {
