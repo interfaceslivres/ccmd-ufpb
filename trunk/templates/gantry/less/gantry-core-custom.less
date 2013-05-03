@@ -605,3 +605,54 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 			text-align: center;
 		}
 }
+
+
+//Interfaces
+
+.imglegenda {
+    margin: 0 auto;
+    margin:5px;
+    overflow: hidden;
+    position: relative;
+    width:180px; 
+    float:left;
+    height:180px; /* imagem e legenda */
+  }
+  .imglegenda a {text-decoration: none;}
+  .imglegenda a:hover {cursor: pointer;}
+  .imglegenda a img {
+    background-color: #fcc; /* cor da moldura */
+    border: none;
+    margin: 0;
+    padding: 0px; /* moldura */
+    width: 180px; /* largura da imagem */
+  }
+  
+  .imglegenda a .legen {display:none;}
+  .imglegenda a:hover .legen {
+    background-color:#232323; /* cor de fundo */
+    display: block;
+    margin: 0;
+    width: 170px; /* largura */
+    height:180px;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    font-family:arial;
+    text-align:center;
+	line-height:1em;
+  }
+  .imglegenda:hover .legen p {
+    display: block;
+    font-size: 14px;
+    text-transform:uppercase;
+	line-height:1em;
+	padding-top:15px;
+	z-index:999999;
+  }
+
+
+
