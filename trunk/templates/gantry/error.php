@@ -34,14 +34,7 @@ $gantry->addScript('rokmediaqueries.js');
 ob_start();
 ?>
 <body <?php echo $gantry->displayBodyTag(); ?>>
-	<div id="rt-top-surround">
-		<div id="rt-header">
-			<div class="rt-container">
-				<?php echo $gantry->displayModules('header','standard','standard'); ?>
-				<div class="clear"></div>
-			</div>
-		</div>
-	</div>
+	
 	<div class="rt-container">
 		<div class="component-content">
 			<div class="rt-grid-12">
@@ -50,9 +43,9 @@ ob_start();
 					<div class="rt-error-content">
 						<h1 class="error-title title">Error: <span><?php echo $this->error->getCode(); ?></span> - <?php echo $this->error->getMessage(); ?></h1>
 						<div class="error-content">
-						<p><strong>You may not be able to visit this page because of:</strong></p>
+						<p><strong>Desculpe-nos, esta página não está disponível.</strong></p>
 						<ol>
-							<li>an out-of-date bookmark/favourite</li>
+							<p>Verifique a url e tente novamente</p>
 							<li>a search engine that has an out-of-date listing for this site</li>
 							<li>a mistyped address</li>
 							<li>you have no access to this page</li>
@@ -64,6 +57,7 @@ ob_start();
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 </body>
 </html>
