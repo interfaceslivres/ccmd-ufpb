@@ -33,7 +33,7 @@ $gantry->addScript('rokmediaqueries.js');
 
 ob_start();
 ?>
-<body <?php echo $gantry->displayBodyTag(); ?>>
+<body <?php echo $gantry->displayBodyTag(); ?> id="erro">
 	
 	<div class="rt-container">
 		<div class="component-content">
