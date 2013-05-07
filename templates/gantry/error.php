@@ -45,12 +45,9 @@ ob_start();
 						<div class="error-content">
 						<p><strong>Desculpe-nos, esta página não está disponível.</strong></p>
 						<ol>
-							<p>Verifique a url e tente novamente</p>
-							<li>a search engine that has an out-of-date listing for this site</li>
-							<li>a mistyped address</li>
-							<li>you have no access to this page</li>
-							<li>The requested resource was not found.</li>
-							<li>An error has occurred while processing your request.</li>
+							<p>Verifique se o endereço digitado está correta;</p>
+							<p>Refaça o caminho para a página desejada;</p>
+							<p>Se nada disso der certo entre em contato conosco;</p>
 						</ol>
 						<p><a href="<?php echo $gantry->baseUrl; ?>" class="readon"><span>&larr; Home</span></a></p>
 					</div>
