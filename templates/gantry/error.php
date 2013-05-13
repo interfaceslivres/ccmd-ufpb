@@ -45,11 +45,11 @@ ob_start();
 						<div class="error-content">
 						<p><strong>Desculpe-nos, esta página não está disponível.</strong></p>
 						<ol>
-							<p>Verifique se o endereço digitado está correta;</p>
+							<p>Verifique se o endereço digitado está correto;</p>
 							<p>Refaça o caminho para a página desejada;</p>
-							<p>Se nada disso der certo entre em contato conosco;</p>
+							<p>Se nada disso der certo entre em <a href="http://www.cchla.ufpb.br/ccmd/index.php/contatos">contato</a> conosco;</p>
 						</ol>
-						<p><a href="<?php echo $gantry->baseUrl; ?>" class="readon"><span>&larr; Home</span></a></p>
+						<p><a href="<?php echo $gantry->baseUrl; ?>" class="readon"><span>&larr; Página Inicial</span></a></p>
 					</div>
 				</div>
 			</div>
