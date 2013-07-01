@@ -825,115 +825,16 @@ input[type="radio"], input[type="checkbox"] {
 
 // Contacts
 .component-content {
-	.contact {
-		padding: 0;
-		.button {
-			float: none !important;
-			clear: left;
-			display: block;
-			margin: 20px 0 0 0;
-		}
-		.title {
-			font-size: 1.3em;
-			margin: 0 0 2px 0;
-			border: 0;
-			box-shadow: none;
-			padding: 0;
-			.border-radius(3px);
-			a {
-				display: block;
-				padding: 10px;
-				span {
-					line-height: 1em;
-					&:before {
-						font-family: FontAwesome;
-						content: "\f055";
-						margin: 0 10px 0 0;
-						font-size: 1.3em;
-						display: inline;
-						vertical-align: middle;
-					}
-				}
-			}
-		}
-		.pane-toggler-down a span:before {content: "\f056";}
-	}
-	.contact-category {
-		padding: 0 10px;
-		#adminForm .filters {
-			border: 0;
-			padding: 0;
-		}
-	}
-	.contact-image {
-		margin: 10px 0;
-		overflow: hidden;
-		display: block;
-		img {
-			max-width: 100%;
-		}
-	}
-	address {
-		font-style: normal;
-		margin: 10px 0;
-		span {
-			display: block;
-		}
-	}
+	
 	.contact-address {
 		margin: 20px 0 10px 0;
+		float: none !important;		
 	}
-	.contact-email {
-		div {
-			padding: 2px 0;
-			margin: 0 0 10px 0;
-		}
-		label {
-			width: 17em;
-			float: left;
-		}
+	
+	.dl-horizontal dd {
+		margin-left: 10px;
 	}
-	#contact-textmsg {
-		padding: 2px 0 10px 0;
-	}
-	#contact-email-copy {
-		float: left;
-		margin-right: 10px;
-	}
-	dl.tabs {
-		float: left;
-		margin: 50px 0 0 0;
-		z-index: 50;
-		clear: both;
-		dt {
-			float: left;
-			padding: 4px 10px;
-			border-left: 1px solid #ccc;
-			border-right: 1px solid @light-grey;
-			border-top: 1px solid @light-grey;
-			margin-right: 3px;
-			background: #f0f0f0;
-			color: #666666;
-		}
-		.open {
-			background: #F9F9F9;
-			border-bottom: 1px solid #F9F9F9;
-			z-index: 100;
-			color: @black;
-		}
-	}
-	.current {
-		clear: both;
-		border: 1px solid @light-grey;
-		padding: 10px 10px;
-		dd {
-			padding: 0;
-			margin: 0;
-		}
-	}
-	#content-pane.tabs {
-		margin: 1px 0 0 0;
-	}
+	
 }
 
 // User Profile
