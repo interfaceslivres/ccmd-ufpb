@@ -47,7 +47,7 @@ class ModFinderHelper
 		}
 		if ($needId)
 		{
-			$fields .= '<input type="hidden" name="Itemid" value="' . JFactory::getApplication()->input->get('Itemid', '0', 'int') . '" />';
+			$fields .= '<input type="hidden" value="' . JFactory::getApplication()->input->get('Itemid', '0', 'int') . '" />';
 		}
 		return $fields;
 	}
