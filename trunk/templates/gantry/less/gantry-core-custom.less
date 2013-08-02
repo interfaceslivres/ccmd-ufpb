@@ -955,3 +955,121 @@ right: 8px;
 background: #fff;
 padding-top: 100px;
 }
+
+//Documentos 
+
+
+
+.documentos {
+
+  width: 100%;
+
+  border: solid 1px #DDD;
+
+  border-radius: 5px;
+
+  background-color: #EEE;
+
+  float: left;
+
+		h4 {
+
+		margin: 20px 0;
+
+		top: auto;
+
+		bottom: auto;
+
+		}
+  } 
+
+.imgdocumento {
+
+  float: left;
+
+  margin: 10px 20px;
+
+} 
+
+.titulodocumento {
+
+top: auto;
+
+bottom: auto;
+
+margin: 0;
+
+display: table-cell;
+
+
+vertical-align: middle;
+
+}
+
+.titulodocumento:hover {
+
+text-decoration: underline;
+
+}
+
+#doc-icon {
+
+  background-image: url('http://www.cchla.ufpb.br/ccmd/images/icons.png');
+
+  background-position: -64px 0px;
+
+  width: 31px;
+
+  height: 40px;
+
+  display: block;
+
+}
+
+#pdf-icon {
+
+  background-image: url('http://www.cchla.ufpb.br/ccmd/images/icons.png');
+
+  background-position: -32px 0px;
+
+  width: 31px;
+
+  height: 40px;
+
+  display: block;
+
+}
+
+// Media Query for mobile: documentos e links
+@media only screen and (max-width: 480px) { 
+   
+.titulodocumento {
+top: auto;
+bottom: auto;
+width: 80%;
+margin: 0;
+display: table-cell;
+vertical-align: middle;
+
+}
+
+ 
+.site {
+width: 100%;
+height: 175px;
+border: solid 1px #DDD;
+border-radius: 5px;
+background-color: #EEE;
+margin-top: 10px;
+float: left;
+position:relative;
+}
+
+#descricaosite {
+font-family: tahoma;
+margin: 10px 0 0 10px;
+width: 80%;
+}
+
+
+   }
