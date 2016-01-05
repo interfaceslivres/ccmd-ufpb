@@ -1,0 +1,1 @@
+O site deve possuir um template capaz de se adaptar para padronizar o site de todas as coordenações do CCHLA.
